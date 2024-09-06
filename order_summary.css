@@ -1,0 +1,202 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    /* Light sky blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Title Styling */
+h1 {
+    color: #4682b4;
+    /* Darker sky blue */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.total {
+    font-size: 1.2em;
+    color: #4682b4;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Button Styling */
+button {
+    background-color: #87CEFA;
+    /* Light sky blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4682b4;
+    /* Darker sky blue on hover */
+}
+
+/* Card Details Section Styling */
+#cardDetails {
+    margin-top: 20px;
+    display: none;
+    /* Hidden by default */
+}
+
+/* Success Alert Styling */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+/* For Tablets (min-width: 481px and max-width: 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Container */
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    /* Title Styling */
+    h1 {
+        font-size: 1.8em;
+    }
+
+    /* Table Styling */
+    table {
+        font-size: 0.9em;
+    }
+
+    thead th,
+    tbody td {
+        padding: 8px;
+    }
+
+    /* Form Inputs */
+    .form-group input,
+    .form-group select {
+        padding: 8px;
+    }
+
+    /* Button */
+    button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+/* For Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    /* General Body Styling */
+    body {
+        padding: 10px;
+    }
+
+    /* Container */
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* Title Styling */
+    h1 {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+
+    /* Table Styling */
+    table {
+        font-size: 0.85em;
+    }
+
+    thead th,
+    tbody td {
+        padding: 6px;
+    }
+
+    /* Total Price */
+    .total {
+        font-size: 1em;
+    }
+
+    /* Form Inputs */
+    .form-group input,
+    .form-group select {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    /* Button */
+    button {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}

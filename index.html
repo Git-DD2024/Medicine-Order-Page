@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Medicine</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+
+    <img src="background-image.jpg" alt="background image">
+    <form id="orderForm">
+        <h1>Order Medicine</h1>
+        <div class="flex-container">
+            <div class="section">
+                <h2>Analgesics</h2>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="100"> Aspirin -
+                    LKR 100 <input type="number" class="quantity" min="0" data-price="100" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="150"> Ibuprofen -
+                    LKR 150 <input type="number" class="quantity" min="0" data-price="150" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="200"> Paracetamol
+                    - LKR 200 <input type="number" class="quantity" min="0" data-price="200" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="250"> Naproxen -
+                    LKR 250 <input type="number" class="quantity" min="0" data-price="250" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="300"> Codeine -
+                    LKR 300 <input type="number" class="quantity" min="0" data-price="300" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Analgesics" data-price="350"> Diclofenac -
+                    LKR 350 <input type="number" class="quantity" min="0" data-price="350" /></label>
+            </div>
+
+            <div class="section">
+                <h2>Antibiotics</h2>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="400"> Amoxicillin
+                    - LKR 400 <input type="number" class="quantity" min="0" data-price="400" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="450">
+                    Azithromycin - LKR 450 <input type="number" class="quantity" min="0" data-price="450" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="500">
+                    Ciprofloxacin - LKR 500 <input type="number" class="quantity" min="0" data-price="500" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="550"> Doxycycline
+                    - LKR 550 <input type="number" class="quantity" min="0" data-price="550" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="600">
+                    Erythromycin - LKR 600 <input type="number" class="quantity" min="0" data-price="600" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antibiotics" data-price="650">
+                    Levofloxacin - LKR 650 <input type="number" class="quantity" min="0" data-price="650" /></label>
+            </div>
+
+            <div class="section">
+                <h2>Antidepressants</h2>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="700">
+                    Fluoxetine - LKR 700 <input type="number" class="quantity" min="0" data-price="700" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="750">
+                    Sertraline - LKR 750 <input type="number" class="quantity" min="0" data-price="750" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="800">
+                    Citalopram - LKR 800 <input type="number" class="quantity" min="0" data-price="800" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="850">
+                    Paroxetine - LKR 850 <input type="number" class="quantity" min="0" data-price="850" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="900">
+                    Venlafaxine - LKR 900 <input type="number" class="quantity" min="0" data-price="900" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antidepressants" data-price="950">
+                    Duloxetine - LKR 950 <input type="number" class="quantity" min="0" data-price="950" /></label>
+            </div>
+
+            <div class="section">
+                <h2>Antihistamines</h2>
+                <label><input type="checkbox" class="medicine" data-category="Antihistamines" data-price="100">
+                    Loratadine - LKR 100 <input type="number" class="quantity" min="0" data-price="100" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihistamines" data-price="120">
+                    Cetirizine - LKR 120 <input type="number" class="quantity" min="0" data-price="120" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihistamines" data-price="140">
+                    Fexofenadine - LKR 140 <input type="number" class="quantity" min="0" data-price="140" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihistamines" data-price="160">
+                    Diphenhydramine - LKR 160 <input type="number" class="quantity" min="0" data-price="160" /></label>
+            </div>
+
+            <div class="section">
+                <h2>Antihypertensives</h2>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="200">
+                    Lisinopril - LKR 200 <input type="number" class="quantity" min="0" data-price="200" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="220">
+                    Amlodipine - LKR 220 <input type="number" class="quantity" min="0" data-price="220" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="240">
+                    Losartan - LKR 240 <input type="number" class="quantity" min="0" data-price="240" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="260">
+                    Metoprolol - LKR 260 <input type="number" class="quantity" min="0" data-price="260" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="280">
+                    Atenolol - LKR 280 <input type="number" class="quantity" min="0" data-price="280" /></label>
+                <label><input type="checkbox" class="medicine" data-category="Antihypertensives" data-price="300">
+                    Valsartan - LKR 300 <input type="number" class="quantity" min="0" data-price="300" /></label>
+            </div>
+        </div>
+
+        <button type="button" id="addToFavourites">Add to Favourites</button>
+        <button type="button" id="applyFavourites">Apply Favourites</button>
+
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Medicine</th>
+                    <th>Quantity</th>
+                    <th>Price (LKR)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><strong>Total Price:</strong></td>
+                    <td id="totalPrice">LKR 0</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button type="button" id="buyNow">Buy Now</button>
+    </form>
+
+    <script src="order.js"></script>
+</body>
+
+</html>
